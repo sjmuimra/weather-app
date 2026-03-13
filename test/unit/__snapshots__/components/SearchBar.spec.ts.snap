@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component: SearchBar > Snapshot > matches snapshot in default state 1`] = `
+"<div data-v-6ab8b910="" class="search-bar"><label data-v-6ab8b910="" class="q-field row no-wrap items-start q-field--outlined q-select q-field--auto-height q-select--with-input q-select--without-chips q-select--single q-field--labeled q-field--dense search-select" for="f_QUASAR_ID">
+    <!---->
+    <div class="q-field__inner relative-position col self-stretch">
+      <div class="q-field__control relative-position row no-wrap bg-white" tabindex="-1">
+        <div class="q-field__prepend q-field__marginal row no-wrap items-center"><i data-v-6ab8b910="" class="q-icon text-primary notranslate material-icons" aria-hidden="true">search</i></div>
+        <div class="q-field__control-container col relative-position row no-wrap q-anchor--skip">
+          <div class="q-field__label no-pointer-events absolute ellipsis">Search for a city or location…</div>
+          <div class="q-field__native row items-center"><input class="q-field__input q-placeholder col" type="search" tabindex="0" role="combobox" aria-label="Search for a city or location…" aria-readonly="false" aria-autocomplete="list" aria-expanded="false" aria-controls="f_QUASAR_ID_lb" id="f_QUASAR_ID" value=""></div>
+          <!---->
+        </div>
+        <div class="q-field__append q-field__marginal row no-wrap items-center">
+          <!--v-if-->
+        </div>
+        <div class="q-field__append q-field__marginal row no-wrap items-center q-anchor--skip"><i class="q-icon notranslate material-icons q-select__dropdown-icon" aria-hidden="true">arrow_drop_down</i></div>
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <!---->
+  </label></div>"
+`;

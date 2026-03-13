@@ -1,0 +1,23 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component: UnitToggle > Snapshot > matches snapshot in imperial mode 1`] = `
+"<div data-v-6c7471f3="" class="unit-toggle row items-center q-gutter-xs"><span data-v-6c7471f3="" class="unit-label inactive">°C</span>
+  <div data-v-6c7471f3="" class="q-toggle cursor-pointer no-outline row inline no-wrap items-center" tabindex="0" role="switch" aria-label="Toggle between metric and imperial units" aria-checked="true">
+    <div class="q-toggle__inner relative-position non-selectable q-toggle__inner--truthy text-white" style="font-size: 35px;" aria-hidden="true"><input class="hidden q-toggle__native absolute q-ma-none q-pa-none" type="checkbox">
+      <div class="q-toggle__track"></div>
+      <div class="q-toggle__thumb absolute flex flex-center no-wrap"></div>
+    </div><span class="no-outline" tabindex="-1"></span>
+  </div><span data-v-6c7471f3="" class="unit-label active">°F</span>
+</div>"
+`;
+
+exports[`Component: UnitToggle > Snapshot > matches snapshot in metric mode 1`] = `
+"<div data-v-6c7471f3="" class="unit-toggle row items-center q-gutter-xs"><span data-v-6c7471f3="" class="unit-label active">°C</span>
+  <div data-v-6c7471f3="" class="q-toggle cursor-pointer no-outline row inline no-wrap items-center" tabindex="0" role="switch" aria-label="Toggle between metric and imperial units" aria-checked="false">
+    <div class="q-toggle__inner relative-position non-selectable q-toggle__inner--falsy" style="font-size: 35px;" aria-hidden="true"><input class="hidden q-toggle__native absolute q-ma-none q-pa-none" type="checkbox">
+      <div class="q-toggle__track"></div>
+      <div class="q-toggle__thumb absolute flex flex-center no-wrap"></div>
+    </div><span class="no-outline" tabindex="-1"></span>
+  </div><span data-v-6c7471f3="" class="unit-label inactive">°F</span>
+</div>"
+`;

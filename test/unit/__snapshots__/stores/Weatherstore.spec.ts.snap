@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Store: WeatherStore > Method: error handling in fetch > Snapshot: all error messages > matches snapshot 1`] = `
+{
+  "401": "Invalid API key. Check VITE_OWM_API_KEY in .env.",
+  "404": "Location not found. Try a different search.",
+  "generic": "Unexpected failure",
+  "timeout": "Request timed out. Check your connection.",
+}
+`;
+
+exports[`Store: WeatherStore > Method: selectLocation > dailyForecasts shape matches snapshot 1`] = `
+[
+  {
+    "date": "2024-01-01",
+    "dayLabel": "Mon",
+    "description": "clear sky",
+    "humidity": 60,
+    "icon": "01d",
+    "pop": 10,
+    "temp_max": 20,
+    "temp_min": 15,
+    "windSpeed": 3.5,
+  },
+  {
+    "date": "2024-01-02",
+    "dayLabel": "Tue",
+    "description": "few clouds",
+    "humidity": 70,
+    "icon": "02d",
+    "pop": 20,
+    "temp_max": 17,
+    "temp_min": 12,
+    "windSpeed": 4,
+  },
+]
+`;

@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component: ForecastCard > Snapshot > matches snapshot when empty 1`] = `
+"<div data-v-3f1300da="" class="q-card q-card--flat no-shadow forecast-card">
+  <div data-v-3f1300da="" class="q-card__section q-card__section--vert q-pb-sm">
+    <div data-v-3f1300da="" class="text-subtitle2 text-grey-7 text-uppercase letter-spacing"><i data-v-3f1300da="" class="q-icon notranslate material-icons q-mr-xs" style="font-size: 18px;" aria-hidden="true">calendar_today</i> 5-Day Forecast </div>
+  </div>
+  <div data-v-3f1300da="" class="q-card__section q-card__section--vert q-pt-none">
+    <div data-v-3f1300da="" class="forecast-grid"></div>
+  </div>
+</div>"
+`;
+
+exports[`Component: ForecastCard > Snapshot > matches snapshot with mock forecasts 1`] = `
+"<div data-v-3f1300da="" class="q-card q-card--flat no-shadow forecast-card">
+  <div data-v-3f1300da="" class="q-card__section q-card__section--vert q-pb-sm">
+    <div data-v-3f1300da="" class="text-subtitle2 text-grey-7 text-uppercase letter-spacing"><i data-v-3f1300da="" class="q-icon notranslate material-icons q-mr-xs" style="font-size: 18px;" aria-hidden="true">calendar_today</i> 5-Day Forecast </div>
+  </div>
+  <div data-v-3f1300da="" class="q-card__section q-card__section--vert q-pt-none">
+    <div data-v-3f1300da="" class="forecast-grid">
+      <div data-v-3f1300da="" class="forecast-day column items-center">
+        <div data-v-3f1300da="" class="day-label text-caption text-weight-bold text-grey-8">Mon</div><img data-v-3f1300da="" src="https://openweathermap.org/img/wn/01d@2x.png" alt="clear sky" class="forecast-icon">
+        <div data-v-3f1300da="" class="temp-max text-body2 text-weight-bold text-blue-9">18°C</div>
+        <div data-v-3f1300da="" class="temp-min text-caption text-grey-6">10°C</div>
+        <!--v-if-->
+      </div>
+      <div data-v-3f1300da="" class="forecast-day column items-center">
+        <div data-v-3f1300da="" class="day-label text-caption text-weight-bold text-grey-8">Tue</div><img data-v-3f1300da="" src="https://openweathermap.org/img/wn/10d@2x.png" alt="light rain" class="forecast-icon">
+        <div data-v-3f1300da="" class="temp-max text-body2 text-weight-bold text-blue-9">14°C</div>
+        <div data-v-3f1300da="" class="temp-min text-caption text-grey-6">8°C</div>
+        <div data-v-3f1300da="" class="pop row items-center q-mt-xs"><i data-v-3f1300da="" class="q-icon text-blue-5 notranslate material-icons" style="font-size: 10px;" aria-hidden="true">water_drop</i><span data-v-3f1300da="" class="text-caption text-blue-6 q-ml-xs">60%</span></div>
+      </div>
+      <div data-v-3f1300da="" class="forecast-day column items-center">
+        <div data-v-3f1300da="" class="day-label text-caption text-weight-bold text-grey-8">Wed</div><img data-v-3f1300da="" src="https://openweathermap.org/img/wn/02d@2x.png" alt="few clouds" class="forecast-icon">
+        <div data-v-3f1300da="" class="temp-max text-body2 text-weight-bold text-blue-9">16°C</div>
+        <div data-v-3f1300da="" class="temp-min text-caption text-grey-6">9°C</div>
+        <!--v-if-->
+      </div>
+    </div>
+  </div>
+</div>"
+`;
