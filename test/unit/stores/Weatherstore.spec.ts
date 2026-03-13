@@ -55,7 +55,7 @@ const mockForecastResponse: ForecastResponse = {
     },
   ],
   city: {
-    id: 2950159, name: 'Berlin', coordinates: { lat: 52.52, lon: 13.405 },
+    id: 2950159, name: 'Berlin', coord: { lat: 52.52, lon: 13.405 },
     country: 'DE', population: 3426354, timezone: 3600,
     sunrise: 1704063600, sunset: 1704096000,
   },

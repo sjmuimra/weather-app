@@ -70,7 +70,7 @@ export interface ForecastResponse {
   city: {
     id: number
     name: string
-    coordinates: { lat: number; lon: number }
+    coord: { lat: number; lon: number }
     country: string
     population: number
     timezone: number

@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest'
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
 import { mount, VueWrapper } from '@vue/test-utils'
 import { setActivePinia, createPinia } from 'pinia'
 import { useWeatherStore } from 'src/stores/WeatherStore'
@@ -162,6 +162,13 @@ describe('Component: CurrentWeatherCard', () => {
   })
 
   describe('Snapshot', () => {
+    beforeEach(() => {
+      vi.useFakeTimers()
+      vi.setSystemTime(new Date('2024-01-01T00:00:00.000Z'))
+    })
+    afterEach(() => {
+      vi.useRealTimers()
+    })
 
     it('matches snapshot in default metric state', () => {
       expect(wrapper.html()).toMatchSnapshot()

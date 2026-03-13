@@ -47,7 +47,7 @@ exports[`Service: WeatherService > Snapshot > getCurrentWeather response matches
 exports[`Service: WeatherService > Snapshot > getForecast response matches snapshot 1`] = `
 {
   "city": {
-    "coordinates": {
+    "coord": {
       "lat": 52.52,
       "lon": 13.405,
     },
