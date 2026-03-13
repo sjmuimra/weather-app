@@ -1,1 +1,11 @@
-// app global css in SCSS form
+* {
+  box-sizing: border-box;
+}
+
+a, button, .q-btn, .q-chip, .q-toggle {
+  transition: all 0.2s ease;
+}
+
+.letter-spacing {
+  letter-spacing: 0.08em;
+}

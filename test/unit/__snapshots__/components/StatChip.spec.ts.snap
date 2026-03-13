@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component: StatChip > Snapshot > matches snapshot with humidity props 1`] = `
+"<div data-v-e1863c21="" class="q-chip row inline no-wrap items-center bg-blue-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">water_drop</i>
+  <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+    <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">72%</span><span data-v-e1863c21="" class="chip-label">Humidity</span></div>
+  </div>
+</div>"
+`;
+
+exports[`Component: StatChip > Snapshot > matches snapshot with wind props 1`] = `
+"<div data-v-e1863c21="" class="q-chip row inline no-wrap items-center bg-teal-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">air</i>
+  <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+    <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">3.5 m/s</span><span data-v-e1863c21="" class="chip-label">Wind</span></div>
+  </div>
+</div>"
+`;

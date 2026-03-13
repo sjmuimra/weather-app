@@ -1,0 +1,16 @@
+node_modules
+
+dist
+.quasar
+
+.env
+.env.local
+.env.*.local
+
+.git
+.gitignore
+
+.vscode
+.idea
+*.suo
+*.log

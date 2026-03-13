@@ -1,0 +1,65 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Composable: UseWeatherIcon > Method: formatTime > matches snapshot for typical sunrise 06:23 UTC 1`] = `"06:23"`;
+
+exports[`Composable: UseWeatherIcon > Method: getMaterialIcon > Snapshot: all known codes > matches snapshot 1`] = `
+{
+  "01d": "sunny",
+  "01n": "bedtime",
+  "02d": "partly_cloudy_day",
+  "02n": "partly_cloudy_night",
+  "03d": "cloud",
+  "03n": "cloud",
+  "04d": "cloud",
+  "04n": "cloud",
+  "09d": "rainy",
+  "09n": "rainy",
+  "10d": "rainy",
+  "10n": "rainy",
+  "11d": "thunderstorm",
+  "11n": "thunderstorm",
+  "13d": "ac_unit",
+  "13n": "ac_unit",
+  "50d": "foggy",
+  "50n": "foggy",
+}
+`;
+
+exports[`Composable: UseWeatherIcon > Method: owmIconUrl > matches snapshot 1`] = `"https://openweathermap.org/img/wn/10d@2x.png"`;
+
+exports[`Composable: UseWeatherIcon > Method: windDirection > Snapshot: all 8 cardinal directions > matches snapshot 1`] = `
+[
+  {
+    "deg": 0,
+    "direction": "N",
+  },
+  {
+    "deg": 45,
+    "direction": "NE",
+  },
+  {
+    "deg": 90,
+    "direction": "E",
+  },
+  {
+    "deg": 135,
+    "direction": "SE",
+  },
+  {
+    "deg": 180,
+    "direction": "S",
+  },
+  {
+    "deg": 225,
+    "direction": "SW",
+  },
+  {
+    "deg": 270,
+    "direction": "W",
+  },
+  {
+    "deg": 315,
+    "direction": "NW",
+  },
+]
+`;

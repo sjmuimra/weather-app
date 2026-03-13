@@ -1,0 +1,18 @@
+services:
+  weather-app:
+    build:
+      context: .
+      args:
+        VITE_OWM_API_KEY: ${VITE_OWM_API_KEY}
+        VITE_OWM_BASE_URL: ${VITE_OWM_BASE_URL}
+    image: weather-app:latest
+    container_name: weather-app
+    ports:
+      - '3002:80'
+    restart: unless-stopped
+    healthcheck:
+      test: ['CMD', 'wget', '-qO-', 'http://localhost/']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

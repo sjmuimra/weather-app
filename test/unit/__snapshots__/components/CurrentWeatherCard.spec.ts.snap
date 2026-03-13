@@ -1,0 +1,115 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component: CurrentWeatherCard > Snapshot > matches snapshot in default metric state 1`] = `
+"<div data-v-21009144="" class="q-card q-card--flat no-shadow current-weather-card">
+  <div data-v-21009144="" class="q-card__section q-card__section--vert row items-center justify-between q-pb-none">
+    <div data-v-21009144="">
+      <div data-v-21009144="" class="location-name text-h5 text-weight-bold">Berlin <span data-v-21009144="" class="text-grey-6 text-body2 q-ml-xs">(DE)</span></div>
+      <div data-v-21009144="" class="text-caption text-grey-6">Friday, March 13, 2026</div>
+    </div><button data-v-21009144="" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--round text-primary q-btn--actionable q-focusable q-hoverable" tabindex="0" type="button" aria-label="Refresh weather"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i class="q-icon notranslate material-icons" aria-hidden="true" role="img">refresh</i><!----></span>
+      <transition-stub name="q-transition--fade" appear="false" persisted="false" css="true">
+        <!---->
+      </transition-stub>
+    </button>
+  </div>
+  <div data-v-21009144="" class="q-card__section q-card__section--vert row items-center q-pt-sm"><img data-v-21009144="" src="https://openweathermap.org/img/wn/01d@2x.png" alt="clear sky" class="weather-icon q-mr-md">
+    <div data-v-21009144="">
+      <div data-v-21009144="" class="temp text-h2 text-weight-bold">18°C</div>
+      <div data-v-21009144="" class="text-body1 text-capitalize text-grey-7">clear sky</div>
+      <div data-v-21009144="" class="text-caption text-grey-6"> Feels like 17°C</div>
+    </div>
+  </div>
+  <div data-v-21009144="" class="q-card__section q-card__section--vert q-pt-none">
+    <div data-v-21009144="" class="stats-row row q-gutter-sm">
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-blue-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">water_drop</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">60%</span><span data-v-e1863c21="" class="chip-label">Humidity</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-teal-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">air</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">4 m/s</span><span data-v-e1863c21="" class="chip-label">Wind</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-purple-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">visibility</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">10.0 km</span><span data-v-e1863c21="" class="chip-label">Visibility</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-orange-7 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">compress</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">1013 hPa</span><span data-v-e1863c21="" class="chip-label">Pressure</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-amber-7 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">wb_sunny</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">00:00</span><span data-v-e1863c21="" class="chip-label">Sunrise</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-deep-orange-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">nights_stay</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">09:00</span><span data-v-e1863c21="" class="chip-label">Sunset</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--v-if-->
+</div>"
+`;
+
+exports[`Component: CurrentWeatherCard > Snapshot > matches snapshot in imperial mode 1`] = `
+"<div data-v-21009144="" class="q-card q-card--flat no-shadow current-weather-card">
+  <div data-v-21009144="" class="q-card__section q-card__section--vert row items-center justify-between q-pb-none">
+    <div data-v-21009144="">
+      <div data-v-21009144="" class="location-name text-h5 text-weight-bold">Berlin <span data-v-21009144="" class="text-grey-6 text-body2 q-ml-xs">(DE)</span></div>
+      <div data-v-21009144="" class="text-caption text-grey-6">Friday, March 13, 2026</div>
+    </div><button data-v-21009144="" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--round text-primary q-btn--actionable q-focusable q-hoverable" tabindex="0" type="button" aria-label="Refresh weather"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i class="q-icon notranslate material-icons" aria-hidden="true" role="img">refresh</i><!----></span>
+      <transition-stub name="q-transition--fade" appear="false" persisted="false" css="true">
+        <!---->
+      </transition-stub>
+    </button>
+  </div>
+  <div data-v-21009144="" class="q-card__section q-card__section--vert row items-center q-pt-sm"><img data-v-21009144="" src="https://openweathermap.org/img/wn/01d@2x.png" alt="clear sky" class="weather-icon q-mr-md">
+    <div data-v-21009144="">
+      <div data-v-21009144="" class="temp text-h2 text-weight-bold">18°F</div>
+      <div data-v-21009144="" class="text-body1 text-capitalize text-grey-7">clear sky</div>
+      <div data-v-21009144="" class="text-caption text-grey-6"> Feels like 17°F</div>
+    </div>
+  </div>
+  <div data-v-21009144="" class="q-card__section q-card__section--vert q-pt-none">
+    <div data-v-21009144="" class="stats-row row q-gutter-sm">
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-blue-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">water_drop</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">60%</span><span data-v-e1863c21="" class="chip-label">Humidity</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-teal-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">air</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">4 mph</span><span data-v-e1863c21="" class="chip-label">Wind</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-purple-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">visibility</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">10.0 km</span><span data-v-e1863c21="" class="chip-label">Visibility</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-orange-7 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">compress</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">1013 hPa</span><span data-v-e1863c21="" class="chip-label">Pressure</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-amber-7 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">wb_sunny</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">00:00</span><span data-v-e1863c21="" class="chip-label">Sunrise</span></div>
+        </div>
+      </div>
+      <div data-v-e1863c21="" data-v-21009144="" class="q-chip row inline no-wrap items-center bg-deep-orange-5 text-white q-chip--colored stat-chip" style="font-size: 10px;"><i class="q-icon notranslate material-icons q-chip__icon q-chip__icon--left" aria-hidden="true">nights_stay</i>
+        <div class="q-chip__content col row no-wrap items-center q-anchor--skip">
+          <div data-v-e1863c21="" class="chip-content column items-center"><span data-v-e1863c21="" class="chip-value text-weight-bold">09:00</span><span data-v-e1863c21="" class="chip-label">Sunset</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--v-if-->
+</div>"
+`;

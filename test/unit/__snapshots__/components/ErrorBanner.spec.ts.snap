@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Component: ErrorBanner > Snapshot > matches snapshot when hidden 1`] = `"<!--v-if-->"`;
+
+exports[`Component: ErrorBanner > Snapshot > matches snapshot when showing an error 1`] = `
+"<div data-v-7c5f87b4="" class="q-banner row items-center q-banner--dense rounded-borders q-banner--top-padding error-banner text-white q-mb-md" role="alert">
+  <div class="q-banner__avatar col-auto row items-center self-start"><i data-v-7c5f87b4="" class="q-icon text-white notranslate material-icons" aria-hidden="true">error_outline</i></div>
+  <div class="q-banner__content col text-body2"> Location not found. Try a different search. </div>
+  <div class="q-banner__actions row items-center justify-end col-all"><button data-v-7c5f87b4="" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle text-white q-btn--actionable q-focusable q-hoverable" tabindex="0" type="button"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span class="block">Dismiss</span></span></button></div>
+</div>"
+`;

@@ -1,0 +1,151 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Service: WeatherService > Snapshot > getCurrentWeather response matches snapshot 1`] = `
+{
+  "base": "stations",
+  "clouds": {
+    "all": 0,
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 52.52,
+    "lon": 13.405,
+  },
+  "dt": 1704063600,
+  "id": 2950159,
+  "main": {
+    "feels_like": 17,
+    "humidity": 60,
+    "pressure": 1013,
+    "temp": 18,
+    "temp_max": 20,
+    "temp_min": 15,
+  },
+  "name": "Berlin",
+  "sys": {
+    "country": "DE",
+    "sunrise": 1704040800,
+    "sunset": 1704074400,
+  },
+  "timezone": 3600,
+  "visibility": 10000,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01d",
+      "id": 800,
+      "main": "Clear",
+    },
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 3.5,
+  },
+}
+`;
+
+exports[`Service: WeatherService > Snapshot > getForecast response matches snapshot 1`] = `
+{
+  "city": {
+    "coordinates": {
+      "lat": 52.52,
+      "lon": 13.405,
+    },
+    "country": "DE",
+    "id": 2950159,
+    "name": "Berlin",
+    "population": 1000000,
+    "sunrise": 1704040800,
+    "sunset": 1704074400,
+    "timezone": 3600,
+  },
+  "cnt": 2,
+  "cod": "200",
+  "list": [
+    {
+      "clouds": {
+        "all": 80,
+      },
+      "dt": 1704063600,
+      "dt_txt": "2024-01-01 12:00:00",
+      "main": {
+        "feels_like": 14,
+        "humidity": 70,
+        "pressure": 1010,
+        "temp": 15,
+        "temp_max": 17,
+        "temp_min": 12,
+      },
+      "pop": 0.6,
+      "sys": {
+        "pod": "d",
+      },
+      "visibility": 9000,
+      "weather": [
+        {
+          "description": "light rain",
+          "icon": "10d",
+          "id": 500,
+          "main": "Rain",
+        },
+      ],
+      "wind": {
+        "deg": 180,
+        "speed": 4.2,
+      },
+    },
+    {
+      "clouds": {
+        "all": 90,
+      },
+      "dt": 1704074400,
+      "dt_txt": "2024-01-01 15:00:00",
+      "main": {
+        "feels_like": 11,
+        "humidity": 75,
+        "pressure": 1008,
+        "temp": 12,
+        "temp_max": 14,
+        "temp_min": 10,
+      },
+      "pop": 0.8,
+      "sys": {
+        "pod": "n",
+      },
+      "visibility": 8000,
+      "weather": [
+        {
+          "description": "light rain",
+          "icon": "10n",
+          "id": 500,
+          "main": "Rain",
+        },
+      ],
+      "wind": {
+        "deg": 190,
+        "speed": 5,
+      },
+    },
+  ],
+  "message": 0,
+}
+`;
+
+exports[`Service: WeatherService > Snapshot > searchLocations response matches snapshot 1`] = `
+[
+  {
+    "country": "DE",
+    "lat": 52.52,
+    "lon": 13.405,
+    "name": "Berlin",
+    "state": "Berlin",
+  },
+  {
+    "country": "US",
+    "lat": 44.46,
+    "lon": -71.18,
+    "name": "Berlin",
+    "state": "New Hampshire",
+  },
+]
+`;
