@@ -70,7 +70,7 @@ const mockForecastResponse: ForecastResponse = {
   city: {
     id: 2950159,
     name: 'Berlin',
-    coordinates: { lat: 52.52, lon: 13.405 },
+    coord: { lat: 52.52, lon: 13.405 },
     country: 'DE',
     population: 1000000,
     timezone: 3600,
