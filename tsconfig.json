@@ -1,6 +1,13 @@
 {
   "extends": "./.quasar/tsconfig.json",
   "compilerOptions": {
-    "types": ["vitest/globals"]
-  }
+    "types": ["vitest/globals"],
+    "lib": ["esnext", "dom", "dom.iterable"]
+  },
+  "include": [
+    ".quasar/**/*.d.ts",
+    "node_modules/vite/types/importMeta.d.ts",
+    "src/**/*",
+    "test/**/*"
+  ]
 }
