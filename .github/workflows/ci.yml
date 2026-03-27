@@ -30,7 +30,9 @@ jobs:
         run: npm run lint
 
       - name: TypeScript type-check
-        run: npx vue-tsc --noEmit
+        run: |
+          npx vue-tsc --noEmit -p tsconfig.json
+          npx vue-tsc --noEmit -p tsconfig.test.json
 
       - name: Unit tests
         run: npm test

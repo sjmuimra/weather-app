@@ -5,7 +5,7 @@ exports[`Component: CurrentWeatherCard > Snapshot > matches snapshot in default 
   <div data-v-21009144="" class="q-card__section q-card__section--vert row items-center justify-between q-pb-none">
     <div data-v-21009144="">
       <div data-v-21009144="" class="location-name text-h5 text-weight-bold">Berlin <span data-v-21009144="" class="text-grey-6 text-body2 q-ml-xs">(DE)</span></div>
-      <div data-v-21009144="" class="text-caption text-grey-6">Friday, March 13, 2026</div>
+      <div data-v-21009144="" class="text-caption text-grey-6">Friday, March 27, 2026</div>
     </div><button data-v-21009144="" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--round text-primary q-btn--actionable q-focusable q-hoverable" tabindex="0" type="button" aria-label="Refresh weather"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i class="q-icon notranslate material-icons" aria-hidden="true" role="img">refresh</i><!----></span>
       <transition-stub name="q-transition--fade" appear="false" persisted="false" css="true">
         <!---->
